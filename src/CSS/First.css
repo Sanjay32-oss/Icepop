@@ -1,0 +1,36 @@
+.welcome-message {
+text-align: center;
+font-size: 24px;
+font-weight: bold;
+margin-top: 15%;
+color: black;
+}
+.navbar { 
+text-align: right;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding: 19px;
+background-color: grey;
+}
+.navbar .link {
+text-decoration: none;
+padding: 12px;
+color: rgba(0, 0, 0, 0.918);
+font-size: 19px;
+}
+.navbar .link:hover {
+background-color: red;
+border-radius: 29px;
+}
+.footer-class{
+margin-top: 20%;
+background-color: red;
+text-align: center;
+}
+.Btn-class{
+display: block;
+margin: auto;
+font-size: 15px;
+border-radius: 8px;
+color: red;
+}
+  

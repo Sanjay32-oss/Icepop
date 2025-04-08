@@ -1,0 +1,30 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: black;
+}
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+form{
+border: 3px solid rgba(202, 51, 51, );
+padding: 20px;
+text-align: center;
+background-color:grey;
+width: 300px;
+border-radius: 12px;
+}
+form input{
+margin-bottom: 6px;
+width: 90%;
+height: 5vh;
+border-radius: 8px;
+}
+form:hover{
+color: rgba(41, 5, 5);
+}

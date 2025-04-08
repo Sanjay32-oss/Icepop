@@ -1,0 +1,27 @@
+.service-page{
+background-color: rgb(167, 147, 30);
+}
+
+.FlavourContainer {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 20px; 
+}
+
+#Container22 img{
+width: 20vw;
+height: 56vh;
+border-radius: 30px 30px 0px 0px;
+}
+#Container22{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+padding: 10px;
+border: 5px solid black;
+border-radius: 10px;
+width: 250px;
+background-color: rgb(169, 149, 36);
+}

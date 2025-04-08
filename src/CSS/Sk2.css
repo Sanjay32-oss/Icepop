@@ -1,0 +1,55 @@
+.contact-page {
+  background-image: url("../Components/Imagess/contactxyz.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 170vh;
+}
+
+#Section12 {
+  width: 100vw;
+  height: 160vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.sect {
+  border: 2px solid black;
+  width: 50vw;
+  padding: 20px;
+  background: rgba(135, 206, 235, 0.2);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.sect input {
+  width: 80%;
+  height: 5vh;
+  border: 0px solid gray;
+  border-radius: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  color: black;
+}
+.sect button {
+  width: 50%;
+  padding: 10px;
+  font-size: 12px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.sect button:hover {
+  background: darkgray;
+}
+.sect label {
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: left;
+  width: 80%;
+  color: black;
+}

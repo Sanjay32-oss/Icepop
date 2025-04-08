@@ -1,0 +1,513 @@
+/* Base styles (mobile-first) */
+.home-page {
+  background-image: url("../Components/Imagess/pexel4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.Navbar .navvar:hover {
+  color: red;
+}
+
+#grechen-fuemen-regular {
+  margin-top: -25%;
+  letter-spacing: 5px;
+  gap: 10px;
+  font-size: 4rem; /* Reduced from 9rem */
+  transition: color 0.5 ease-in-out;
+  font-family: "Liter", serif;
+  font-family: "Grechen Fuemen", serif;
+  animation: colorChange 6s infinite alternate ease-in-out;
+}
+
+#grechen-fuemen-regular .sk1 {
+  margin-left: 5%;
+  font-size: 5rem; /* Reduced from 10rem */
+}
+
+#grechen-fuemen-regular .sk2 {
+  margin-left: 15%;
+  font-size: 6rem; /* Reduced from 12rem */
+}
+
+#grechen-fuemen-regular .sk3 {
+  margin-left: 19%;
+  font-size: 7rem; /* Reduced from 14rem */
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  border-radius: 0px;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(161, 139, 139);
+  padding: 5px;
+  font-size: 3rem; /* Reduced from 6rem */
+  text-transform: uppercase;
+  width: 80%;
+}
+
+@keyframes colorChange {
+  10% {
+    color: rgb(201, 30, 30);
+  }
+  50% {
+    color: rgb(49, 31, 127);
+  }
+  100% {
+    color: rgb(74, 11, 79);
+  }
+}
+
+.gallery-image1 {
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+
+.para1 {
+  width: 90%; /* Increased from 50% */
+  margin: 5% auto; /* Centered */
+  font-size: 16px; /* Reduced from 19px */
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: justify;
+  color: whitesmoke;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.para1:hover {
+  background-color: rgb(8, 8, 8);
+  border-radius: 25px;
+}
+
+#Sk2 {
+  background-color: rgb(203, 24, 24);
+  min-height: auto; /* Changed from 310vh */
+  width: 100%;
+  text-transform: uppercase;
+  color: whitesmoke;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px 0;
+}
+
+#Sk2 .ss {
+  font-size: 3rem; /* Reduced from 6rem */
+}
+
+#Sk3 {
+  width: 90%; /* Increased from 40% */
+  height: auto;
+  border-radius: 35% 35% 0% 0%;
+  margin: 1% auto; /* Centered */
+  display: block;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 50px;
+  right: 12px;
+  background-color: rgb(148, 62, 62);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 10px; /* Reduced from 20px */
+  display: flex;
+  width: 60%; /* Increased from 20% */
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.2rem; /* Reduced from 1.5rem */
+  animation: exampleAnimation 3s ease-in 0.5s infinite;
+  z-index: 1000;
+}
+
+@keyframes exampleAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(30px);
+  }
+}
+
+.dropdown-menu .navvar {
+  padding: 8px; /* Reduced from 10px */
+  font-size: 1.2rem; /* Reduced from 2rem */
+  text-decoration: none;
+  color: whitesmoke;
+  font-style: bold;
+  display: block;
+}
+
+#Sanj img {
+  border-radius: 90px 50px 30px 10px;
+  height: 8vh; /* Reduced from 10vh */
+  margin-left: 12px;
+}
+
+#ww2 {
+  font-size: 1.4rem; /* Reduced from 2.4rem */
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-align: justify;
+  font-family: cursive;
+  width: 90%; /* Increased from 40% */
+  margin: 0.1% auto; /* Centered */
+}
+
+#Sk4 {
+  float: none; /* Removed float */
+  width: 90%; /* Increased from 26% */
+  height: auto;
+  border-radius: 70px 0px 0px 0px;
+  margin: 5% auto; /* Centered */
+  display: block;
+}
+
+#grechen-fuemen-regular1 {
+  font-family: "Grechen Fuemen", serif;
+  font-style: normal;
+  text-transform: lowercase;
+  font-size: 16px; /* Reduced from 17px */
+  width: 90%; /* Increased from 40% */
+  text-shadow: 12px 12px 15px rgba(0, 0, 0, 0.5);
+  font-style: italic;
+  margin: 20px auto; /* Centered */
+  line-height: 1.5rem;
+  text-align: justify;
+  text-transform: none;
+}
+
+#ww3 {
+  width: 90%; /* Increased from 23% */
+  height: auto;
+  border-radius: 60px 0px 0px 0px;
+  float: none; /* Removed float */
+  margin: 5% auto; /* Centered */
+  display: block;
+}
+
+#Sp1 {
+  background-color: rgb(157, 138, 27);
+  width: 100%;
+  min-height: auto; /* Changed from 180vh */
+  justify-content: center;
+  padding: 20px 0;
+}
+
+#Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  border: 5px solid black;
+  border-radius: 10px;
+  width: 90%; /* Changed from 250px */
+  max-width: 250px; /* Added max-width */
+  background-color: rgb(169, 149, 36);
+  margin: 10px auto; /* Centered */
+}
+
+.FlavourContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+#Container img {
+  width: 100%; /* Changed from 20vw */
+  height: auto;
+  max-height: 300px;
+  border-radius: 30px 30px 0px 0px;
+}
+
+.Sp2 {
+  background-color: red;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 2.5rem; /* Reduced from 4rem */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+  padding: 15px 0;
+}
+
+#alldp .dpp {
+  width: 100%;
+  height: auto;
+}
+
+#Section1 {
+  background-color: black;
+  width: 100%;
+  min-height: auto; /* Changed from 250vh */
+  padding: 20px 0;
+}
+
+#section22 .gk {
+  width: 90%; /* Changed from 30vw */
+  height: auto;
+  margin: 15px auto; /* Centered */
+  border-radius: 15px;
+  display: block;
+  max-width: 500px;
+}
+
+#section22 {
+  background-color: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  background-color: #1a202c;
+  color: white;
+  padding: 2rem 0;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.description {
+  margin-top: 0.5rem;
+  color: #a0aec0;
+  font-size: 1rem; /* Reduced from 1.2rem */
+}
+
+.footer-title {
+  font-size: 1.1rem; /* Reduced from 1.3rem */
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  font-size: 1rem; /* Reduced from 1.2rem */
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-icon {
+  color: #a0aec0;
+  transition: color 0.3s;
+  font-size: 1.2rem; /* Added for consistency */
+}
+
+.copyright {
+  margin-top: 1.5rem;
+  border-top: 1px solid #2d3748;
+  padding-top: 1rem;
+  color: #a0aec0;
+  font-size: 0.9rem;
+}
+
+.grechen-fuemen-regular1 {
+  font-family: "Grechen Fuemen", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem; /* Reduced from 2rem */
+}
+
+/* Tablet styles */
+@media (min-width: 768px) {
+  #grechen-fuemen-regular {
+    font-size: 6rem;
+  }
+
+  #grechen-fuemen-regular .sk1 {
+    font-size: 7rem;
+  }
+
+  #grechen-fuemen-regular .sk2 {
+    font-size: 8rem;
+  }
+
+  #grechen-fuemen-regular .sk3 {
+    font-size: 9rem;
+  }
+
+  .para1 {
+    width: 70%;
+    font-size: 17px;
+  }
+
+  #Sk2 .ss {
+    font-size: 4rem;
+  }
+
+  #Sk3 {
+    width: 70%;
+    display: block;
+    position: relative; /* Changed from default */
+    left: 50%;
+    transform: translateX(-50%); /* True center regardless of parent */
+    margin: 0; /* Remove auto margins */
+    border-radius: 35% 35% 0% 0%;
+    margin-top: 1%;
+    z-index: 1; /* Ensure it stays above floated elements */
+  }
+
+  .dropdown-menu {
+    width: 40%;
+    font-size: 1.3rem;
+  }
+
+  #ww2 {
+    font-size: 1.8rem;
+    width: 70%;
+  }
+
+  #Sk4 {
+    width: 70%;
+  }
+
+  #grechen-fuemen-regular1 {
+    font-size: 16px;
+    width: 70%;
+  }
+
+  #ww3 {
+    width: 70%;
+  }
+
+  .Sp2 {
+    font-size: 3rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(3, 1fr);
+    text-align: left;
+  }
+
+  .social-links {
+    justify-content: flex-start;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+  #grechen-fuemen-regular {
+    font-size: 9rem;
+  }
+
+  #grechen-fuemen-regular .sk1 {
+    font-size: 10rem;
+  }
+
+  #grechen-fuemen-regular .sk2 {
+    font-size: 12rem;
+  }
+
+  #grechen-fuemen-regular .sk3 {
+    font-size: 14rem;
+  }
+
+  .para1 {
+    width: 50%;
+    margin-left: 40%;
+    font-size: 19px;
+  }
+
+  #Sk2 .ss {
+    font-size: 6rem;
+  }
+
+  #Sk3 {
+    width: 40%;
+    margin-left: 1%;
+  }
+
+  .dropdown-menu {
+    width: 20%;
+    font-size: 1.5rem;
+  }
+
+  #ww2 {
+    font-size: 2.4rem;
+    width: 40%;
+    margin-left: 32%;
+  }
+
+  #Sk4 {
+    width: 26%;
+    float: left;
+    margin-left: 2%;
+    margin-top: -12%;
+  }
+
+  #grechen-fuemen-regular1 {
+    font-size: 17px;
+    width: 40%;
+  }
+
+  #ww3 {
+    width: 23%;
+    float: right;
+    margin-right: 2%;
+    margin-top: 6%;
+  }
+
+  .Sp2 {
+    font-size: 4rem;
+  }
+
+  #Container {
+    width: 250px;
+  }
+
+  #Container img {
+    width: 20vw;
+  }
+
+  #section22 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 15px; /* spacing between images */
+    padding: 20px;
+  }
+
+  #section22 .gk {
+    width: 100%; /* Full width of grid cell */
+    height: 510px; /* Fixed height */
+    object-fit: cover; /* Crop to maintain aspect ratio */
+    border-radius: 15px;
+  }
+}

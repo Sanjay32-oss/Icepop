@@ -1,0 +1,14 @@
+body{
+display: flex;
+justify-content: center;
+text-align: center;
+margin: 20px;
+background-color: black;
+}
+div{
+border-radius: 12px;
+padding: 60px 60px 60px 60px;
+}
+h1{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

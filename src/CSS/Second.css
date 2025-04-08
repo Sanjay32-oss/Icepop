@@ -1,0 +1,16 @@
+.navbar-class{
+text-align: right;
+padding: 30px;
+background-color: black;
+}
+.navbar-class .Link1{
+text-decoration: none;
+padding: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 16px;
+color: whitesmoke;
+}
+.navbar-class .Link1:hover{
+background-color: red;
+border-radius: 12px;
+}
