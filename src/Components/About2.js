@@ -1,7 +1,7 @@
 import React, { memo, useEffect } from "react";
 import "../CSS/A2.css";
 import Mission from "../Components/Imagess/Mission.jpg";
-import Search from "../Components/Imagess/Search.jpg";
+import Quality from "../Components/Imagess/Search.jpg"; // Changed from Search to Quality
 import Workspace from "../Components/Imagess/Workspace.jpg";
 
 const About2 = () => {
@@ -14,81 +14,86 @@ const About2 = () => {
 
   return (
     <>
-      <section>
-        7<h1 id="DD1">ABOUT PAGE</h1>
+      <section className="about-hero">
+        <h1 id="DD1">OUR SWEET STORY</h1>
         <p className="pk">
-          Welcome to MR. SANJAY, where passion meets innovation. Since our
-          founding in 2023, we have been dedicated to delivering Ice Cream with
-          a commitment to quality, integrity, and customer satisfaction. We
-          provides Good Quality of Ice Creams and provide all types of Ice Cream
-          Flavours in our site. brand with a strong community" in innovation,"
-          "a customer-focused brand with a strong community".
+          Welcome to Mr. Sanjay's Artisanal Ice Cream, where passion meets
+          flavor in every scoop. Since 2023, we've been crafting premium,
+          handcrafted ice creams using only the finest natural ingredients. From
+          classic vanilla to exotic seasonal specialties, each batch is made
+          with love and attention to detail that you can taste in every bite.
         </p>
       </section>
 
       <div id="Containergs">
         <div className="count1">
-          <h1 className="count12">Our Mission</h1>
+          <h1 className="count12">Our Promise</h1>
           <img
             src={Mission}
-            alt="Mission"
+            alt="Artisan ice cream making"
             style={{
               borderRadius: "50%",
-              height: "20%",
-              width: "30%",
+              height: "200px",
+              width: "200px",
               display: "block",
               margin: "0 auto",
+              objectFit: "cover",
             }}
           />
           <p className="p1">
-            To [your mission statement, e.g., "empower businesses with
-            cutting-edge technology," "deliver sustainable and high-quality
-            products," "provide seamless solutions for everyday challenges"].
-            brand with a strong community" in innovation," "a customer-focused
-            brand with a strong community"].
+            We promise to never compromise on quality. Our ice creams are made
+            in small batches with 100% natural ingredients—real cream, fresh
+            fruits, and premium chocolates. No artificial flavors, no
+            preservatives, just pure, honest ingredients that create
+            unforgettable taste experiences. Every scoop tells the story of our
+            commitment to excellence.
           </p>
         </div>
 
         <div className="count1">
-          <h1 className="count12">Our Vision</h1>
+          <h1 className="count12">Our Ingredients</h1>
           <img
-            src={Search}
-            alt="Search"
+            src={Quality}
+            alt="Fresh ingredients for ice cream"
             style={{
               borderRadius: "50%",
-              height: "20%",
-              width: "30%",
+              height: "200px",
+              width: "200px",
               display: "block",
               margin: "0 auto",
+              objectFit: "cover",
             }}
           />
           <p className="p1">
-            We envision a future where [describe your vision, e.g., "technology
-            enhances lives effortlessly," "sustainability becomes a global
-            priority," "every customer experiences unparalleled service"]. brand
-            with a strong community" in innovation," "a customer-focused brand
-            with a strong community"].
+            We source locally whenever possible, supporting regional farmers and
+            producers. Our milk comes from happy, grass-fed cows, our fruits are
+            picked at peak ripeness, and our flavors are inspired by global
+            traditions. From Himalayan berries to Kerala vanilla, we celebrate
+            India's incredible biodiversity in every flavor we create.
           </p>
         </div>
 
         <div className="count1">
-          <h1 className="count12">Our WorkSpace</h1>
+          <h1 className="count12">Our Craft</h1>
           <img
             src={Workspace}
-            alt="Workspace"
+            alt="Ice cream production"
             style={{
               borderRadius: "50%",
-              height: "20%",
-              width: "30%",
+              height: "200px",
+              width: "200px",
               display: "block",
               margin: "0 auto",
+              objectFit: "cover",
             }}
           />
           <p className="p1">
-            A productive and inspiring environment is key to our success. Our
-            office space is designed to encourage creativity, collaboration, and
-            efficiency. With modern workstations, open discussion areas, and
-            innovation hubs, we create a thriving workplace culture.
+            Our production kitchen is where magic happens. Using traditional
+            techniques with modern precision, we churn our ice creams slowly to
+            achieve the perfect texture. Each flavor is developed through
+            extensive testing until we achieve perfection. Our team of flavor
+            artisans takes pride in creating innovative combinations while
+            respecting classic favorites.
           </p>
         </div>
 
@@ -96,21 +101,23 @@ const About2 = () => {
           <h1 className="count12">Our Journey</h1>
           <img
             src={Workspace}
-            alt="Workspace"
+            alt="Ice cream shop"
             style={{
               borderRadius: "50%",
-              height: "20%",
-              width: "30%",
+              height: "200px",
+              width: "200px",
               display: "block",
               margin: "0 auto",
+              objectFit: "cover",
             }}
           />
           <p className="p1">
-            From a humble beginning in [year], we have grown into [describe your
-            growth, e.g., "an industry leader with a global presence," "a
-            trusted name brand with a strong community" brand with a strong
-            community" in innovation," "a customer-focused brand with a strong
-            community"].
+            What began as a small family recipe book in 2023 has blossomed into
+            a beloved local institution. From our first tiny shop to becoming
+            the go-to destination for ice cream lovers, our growth has been
+            driven by one simple principle: make ice cream you'd be proud to
+            serve your own family. Today, we continue that tradition with every
+            scoop we serve.
           </p>
         </div>
       </div>
