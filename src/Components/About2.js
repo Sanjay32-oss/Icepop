@@ -1,8 +1,9 @@
 import React, { memo, useEffect } from "react";
 import "../CSS/A2.css";
-import Mission from "../Components/Imagess/Mission.jpg";
-import Quality from "../Components/Imagess/Search.jpg"; // Changed from Search to Quality
-import Workspace from "../Components/Imagess/Workspace.jpg";
+import ArtisanProcess from "../Components/Imagess/Mission.jpg";
+import FarmIngredients from "../Components/Imagess/Search.jpg";
+import ProductionFacility from "../Components/Imagess/Workspace.jpg";
+import FounderStory from "../Components/Imagess/Founder.jpg";
 
 const About2 = () => {
   useEffect(() => {
@@ -13,115 +14,173 @@ const About2 = () => {
   }, []);
 
   return (
-    <>
-      <section className="about-hero">
-        <h1 id="DD1">OUR SWEET STORY</h1>
-        <p className="pk">
-          Welcome to Mr. Sanjay's Artisanal Ice Cream, where passion meets
-          flavor in every scoop. Since 2023, we've been crafting premium,
-          handcrafted ice creams using only the finest natural ingredients. From
-          classic vanilla to exotic seasonal specialties, each batch is made
-          with love and attention to detail that you can taste in every bite.
-        </p>
+    <div className="about-container">
+      <header className="about-header">
+        <div className="header-content">
+          <h1 className="main-title">SANJAY PREMIUM ICE CREAMS</h1>
+          <div className="divider"></div>
+          <h2 className="subtitle">Crafting Excellence Since 2025</h2>
+        </div>
+      </header>
+
+      <section className="mission-statement">
+        <div className="mission-content">
+          <p className="mission-text">
+            At Sanjay Premium Ice Creams, we redefine indulgence through
+            uncompromising quality and innovative flavor craftsmanship. As a
+            leader in artisanal frozen desserts, we combine time-honored
+            techniques with cutting-edge technology to deliver extraordinary
+            sensory experiences.
+          </p>
+        </div>
       </section>
 
-      <div id="Containergs">
-        <div className="count1">
-          <h1 className="count12">Our Promise</h1>
-          <img
-            src={Mission}
-            alt="Artisan ice cream making"
-            style={{
-              borderRadius: "50%",
-              height: "200px",
-              width: "200px",
-              display: "block",
-              margin: "0 auto",
-              objectFit: "cover",
-            }}
-          />
-          <p className="p1">
-            We promise to never compromise on quality. Our ice creams are made
-            in small batches with 100% natural ingredients—real cream, fresh
-            fruits, and premium chocolates. No artificial flavors, no
-            preservatives, just pure, honest ingredients that create
-            unforgettable taste experiences. Every scoop tells the story of our
-            commitment to excellence.
-          </p>
+      <div className="value-propositions">
+        <div className="value-card">
+          <div className="card-header">
+            <div className="icon-circle">
+              <img
+                src={ArtisanProcess}
+                alt="Artisan process"
+                className="value-icon"
+              />
+            </div>
+            <h3>Artisan Craftsmanship</h3>
+          </div>
+          <div className="card-body">
+            <p>
+              Each batch undergoes our proprietary 72-hour slow-churn process,
+              developed by our Master Ice Cream Technologists. This meticulous
+              approach ensures optimal texture and flavor development while
+              preserving nutritional integrity.
+            </p>
+          </div>
         </div>
 
-        <div className="count1">
-          <h1 className="count12">Our Ingredients</h1>
-          <img
-            src={Quality}
-            alt="Fresh ingredients for ice cream"
-            style={{
-              borderRadius: "50%",
-              height: "200px",
-              width: "200px",
-              display: "block",
-              margin: "0 auto",
-              objectFit: "cover",
-            }}
-          />
-          <p className="p1">
-            We source locally whenever possible, supporting regional farmers and
-            producers. Our milk comes from happy, grass-fed cows, our fruits are
-            picked at peak ripeness, and our flavors are inspired by global
-            traditions. From Himalayan berries to Kerala vanilla, we celebrate
-            India's incredible biodiversity in every flavor we create.
-          </p>
+        <div className="value-card">
+          <div className="card-header">
+            <div className="icon-circle">
+              <img
+                src={FarmIngredients}
+                alt="Farm ingredients"
+                className="value-icon"
+              />
+            </div>
+            <h3>Responsible Sourcing</h3>
+          </div>
+          <div className="card-body">
+            <p>
+              We maintain direct partnerships with 42 local farms and global
+              suppliers of premium ingredients. Our vertically integrated supply
+              chain guarantees traceability from source to scoop, with all
+              ingredients meeting our stringent Sanjay Quality Index.
+            </p>
+          </div>
         </div>
 
-        <div className="count1">
-          <h1 className="count12">Our Craft</h1>
-          <img
-            src={Workspace}
-            alt="Ice cream production"
-            style={{
-              borderRadius: "50%",
-              height: "200px",
-              width: "200px",
-              display: "block",
-              margin: "0 auto",
-              objectFit: "cover",
-            }}
-          />
-          <p className="p1">
-            Our production kitchen is where magic happens. Using traditional
-            techniques with modern precision, we churn our ice creams slowly to
-            achieve the perfect texture. Each flavor is developed through
-            extensive testing until we achieve perfection. Our team of flavor
-            artisans takes pride in creating innovative combinations while
-            respecting classic favorites.
-          </p>
+        <div className="value-card">
+          <div className="card-header">
+            <div className="icon-circle">
+              <img
+                src={ProductionFacility}
+                alt="Production facility"
+                className="value-icon"
+              />
+            </div>
+            <h3>Innovation Hub</h3>
+          </div>
+          <div className="card-body">
+            <p>
+              Our state-of-the-art R&D facility in Mumbai houses the industry's
+              most advanced flavor development lab. Here, our team of food
+              scientists and flavor architects create over 200 prototypes
+              annually before selecting only 6 for commercial production.
+            </p>
+          </div>
         </div>
 
-        <div className="count1">
-          <h1 className="count12">Our Journey</h1>
-          <img
-            src={Workspace}
-            alt="Ice cream shop"
-            style={{
-              borderRadius: "50%",
-              height: "200px",
-              width: "200px",
-              display: "block",
-              margin: "0 auto",
-              objectFit: "cover",
-            }}
-          />
-          <p className="p1">
-            What began as a small family recipe book in 2023 has blossomed into
-            a beloved local institution. From our first tiny shop to becoming
-            the go-to destination for ice cream lovers, our growth has been
-            driven by one simple principle: make ice cream you'd be proud to
-            serve your own family. Today, we continue that tradition with every
-            scoop we serve.
-          </p>
+        <div className="value-card">
+          <div className="card-header">
+            <div className="icon-circle">
+              <img
+                src={FounderStory}
+                alt="Founder story"
+                className="value-icon"
+              />
+            </div>
+            <h3>Corporate Legacy</h3>
+          </div>
+          <div className="card-body">
+            <p>
+              Founded by Sanjay Patel, third-generation ice cream maker, our
+              company has grown from a single boutique parlour to becoming
+              India's most awarded premium ice cream brand, recognized with 14
+              international quality certifications.
+            </p>
+          </div>
+        </div>
+        <div className="value-card">
+          <div className="card-header">
+            <div className="icon-circle">
+              <img
+                src={FounderStory}
+                alt="Founder story"
+                className="value-icon"
+              />
+            </div>
+            <h3>Management Optimization</h3>
+          </div>
+          <div className="card-body">
+            <p>
+              Founded by Sanjay Patel, third-generation ice cream maker, our
+              company has grown from a single boutique parlour to becoming
+              India's most awarded premium ice cream brand, recognized with 14
+              international quality certifications.
+            </p>
+          </div>
+        </div>
+
+        <div className="value-card">
+          <div className="card-header">
+            <div className="icon-circle">
+              <img
+                src={FounderStory}
+                alt="Founder story"
+                className="value-icon"
+              />
+            </div>
+            <h3>Our Legacy</h3>
+          </div>
+          <div className="card-body">
+            <p>
+              Founded by Sanjay Patel, third-generation ice cream maker, our
+              company has grown from a single boutique parlour to becoming
+              India's most awarded premium ice cream brand, recognized with 14
+              international quality certifications.
+            </p>
+          </div>
         </div>
       </div>
-    </>
+
+      <section className="corporate-metrics">
+        <div className="metric">
+          <h4>14</h4>
+          <p>International Awards</p>
+        </div>
+        <div className="metric">
+          <h4>200+</h4>
+          <p>Flavor Innovations</p>
+        </div>
+        <div className="metric">
+          <h4>42</h4>
+          <p>Farm Partnerships</p>
+        </div>
+        <div className="metric">
+          <h4>98.7%</h4>
+          <p>Customer Satisfaction</p>
+        </div>
+      </section>
+    </div>
   );
 };
 
